@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{09ACAE7A-FB77-4B8A-9900-6067A526F52F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8FD202DE-FADA-4EC9-9BD5-3D3BEE488297}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.Props = Directory.Build.Props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphere.Server", "Sphere\Server\Sphere.Server.csproj", "{81545CF9-53AF-4C41-AEC6-28B05EBF3B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphere.Client", "Sphere\Client\Sphere.Client.csproj", "{1C309E08-7718-45AE-804D-B5AF97DEB904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphere.Shared", "Sphere\Shared\Sphere.Shared.csproj", "{7848AE52-B715-4298-8C1E-EFA5E6563DA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81545CF9-53AF-4C41-AEC6-28B05EBF3B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81545CF9-53AF-4C41-AEC6-28B05EBF3B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81545CF9-53AF-4C41-AEC6-28B05EBF3B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81545CF9-53AF-4C41-AEC6-28B05EBF3B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C309E08-7718-45AE-804D-B5AF97DEB904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C309E08-7718-45AE-804D-B5AF97DEB904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C309E08-7718-45AE-804D-B5AF97DEB904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C309E08-7718-45AE-804D-B5AF97DEB904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7848AE52-B715-4298-8C1E-EFA5E6563DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7848AE52-B715-4298-8C1E-EFA5E6563DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7848AE52-B715-4298-8C1E-EFA5E6563DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7848AE52-B715-4298-8C1E-EFA5E6563DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEDB1DDB-7730-429D-8510-C3CAD1FB5B06}
+	EndGlobalSection
+EndGlobal
